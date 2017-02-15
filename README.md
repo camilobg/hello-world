@@ -1,2 +1,5 @@
 # hello-world
-Just another hello-world project
+
+
+Hi everyone!
+This is just another hello-world project.
