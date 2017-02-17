@@ -1,0 +1,155 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #f7f7f7;
+  /* Old browsers */
+  background: -moz-linear-gradient(10deg,skyblue 0%, deepskyblue 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(10deg, skyblue 0%, deepskyblue 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(75deg, skyblue 0%, deepskyblue 100%);
+}
+
+/*p1ixeled.ttf*/
+@font-face {
+  font-family: p1ixeled;
+  src: url('p1ixeled.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*3Dventure.ttf*/
+@font-face {
+  font-family: _3Dventure;
+  src: url('3Dventure.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*8bit_wonder.ttf*/
+@font-face {
+  font-family: _8bit_wonder;
+  src: url('8bit_wonder.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*Fipps-Regular.otf*/
+@font-face {
+  font-family: Fipps-Regular;
+  src: url('Fipps-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*PressStart2P.ttf*/
+@font-face {
+  font-family: PressStart2P;
+  src: url('PressStart2P.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+/** Header styles **/
+.header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_coffee-bgnd.jpeg");
+  height: 400px;
+  background-position: center center;
+}
+
+h1 {
+  /*
+  color: MidnightBlue;
+  background-color: Aqua;
+  color: hsl(350, 58.8%, 42.0%);
+  */
+
+  color: rgb(3, 150, 100);
+  color: rgba(10, 130, 170, 0.8);
+  /*font-family: monospace;*/
+  font-family: _3Dventure;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 20px;
+  position: relative;
+  text-align: center;
+  top: 50%;
+}
+
+
+/** List style **/
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+}
+
+li {
+  border-bottom: 5px solid #E4BB97;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+}
+
+p {
+  color: #444444;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+a {
+  color: #214E34;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+
+
+/** DIV style **/
+#p1{
+  color: black;
+  font-family: PressStart2P;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  /*text-transform: uppercase;*/
+}
+
+#p2{
+  color: black;
+  font-family: _8bit_wonder;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  /*text-transform: uppercase;*/
+}
+
+#p3{
+  color: black;
+  font-family: Fipps-Regular;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  /*text-transform: uppercase;*/
+}
+
+#p4{
+  color: black;
+  font-family: p1ixeled;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  /*text-transform: uppercase;*/
+}
