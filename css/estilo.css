@@ -51,10 +51,6 @@ body {
 }
 
 
-
-
-
-
 /** Header styles **/
 .header {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_coffee-bgnd.jpeg");
@@ -70,7 +66,7 @@ h1 {
   */
 
   color: rgb(3, 150, 100);
-  color: rgba(10, 130, 170, 0.8);
+  color: rgba(30, 110, 140, 0.8);
   /*font-family: monospace;*/
   font-family: _3Dventure;
   font-size: 100px;
@@ -104,6 +100,44 @@ p {
   font-weight: 100;
 }
 
+/** DIV style **/
+.p1{
+  color: black;
+  font-family: PressStart2P;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  /*text-transform: uppercase;*/
+}
+
+.p2{
+  color: black;
+  font-family: _8bit_wonder;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  /*text-transform: uppercase;*/
+}
+
+.p3{
+  color: black;
+  font-family: Fipps-Regular;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+  /*text-transform: uppercase;*/
+}
+
+.p4{
+  color: black;
+  font-family: p1ixeled;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  /*text-transform: uppercase;*/
+}
+
+
 a {
   color: #214E34;
   font-family: 'Raleway', sans-serif;
@@ -113,43 +147,4 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
-}
-
-
-
-/** DIV style **/
-#p1{
-  color: black;
-  font-family: PressStart2P;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  /*text-transform: uppercase;*/
-}
-
-#p2{
-  color: black;
-  font-family: _8bit_wonder;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  /*text-transform: uppercase;*/
-}
-
-#p3{
-  color: black;
-  font-family: Fipps-Regular;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  /*text-transform: uppercase;*/
-}
-
-#p4{
-  color: black;
-  font-family: p1ixeled;
-  font-size: 16px;
-  font-weight: normal;
-  text-align: center;
-  /*text-transform: uppercase;*/
 }
