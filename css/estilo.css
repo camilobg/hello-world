@@ -50,13 +50,6 @@ body {
   font-style: normal;
 }
 
-/** Header styles **/
-.header {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_coffee-bgnd.jpeg");
-  height: 400px;
-  background-position: center center;
-}
-
 h1 {
   /*
   color: MidnightBlue;
@@ -138,12 +131,48 @@ p {
 
 
 a {
-  color: #214E34;
-  font-family: 'Raleway', sans-serif;
-  font-size: 13px;
+  font-family: _8bit_wonder;
+  font-size: 12px;
   font-weight: 900;
-  text-align: left;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   text-decoration: none;
-  letter-spacing: 2px;
+  letter-spacing: 13px;
+}
+  a:visited {
+    color: deepskyblue;
+	}
+  a:hover {
+	  color: white;
+    font-size: 12px;
+	}
+  a:active {
+    color: deepskyblue;
+	}
+
+  
+.a1 {
+  font-family: p1ixeled;
+  font-size: 10px;
+  font-weight: 800;
+  /*text-transform: uppercase;*/
+  text-decoration: none;
+  letter-spacing: 5px;
+}
+  .a1:visited {
+    color: lightgray;
+	}
+  .a1:hover {
+	  color: skyblue;
+    font-size: 10px;
+	}
+  .a1:active {
+    color: lightgray;
+	}
+
+#menu{
+  background-color: black;
+  color: white;
+  text-align: right;
+  padding: 5px;
+
 }
