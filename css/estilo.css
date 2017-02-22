@@ -109,6 +109,10 @@ p {
   font-weight: normal;
   text-align: center;
   /*text-transform: uppercase;*/
+  border-width: 0px 10px 0px 10px;
+  border-style: outset;
+  border-color: darkorange;
+  background-color: papayawhip;
 }
 
 .p3{
@@ -157,22 +161,32 @@ a {
   /*text-transform: uppercase;*/
   text-decoration: none;
   letter-spacing: 5px;
+  
 }
   .a1:visited {
-    color: lightgray;
+    color: deepskyblue;
 	}
   .a1:hover {
-	  color: skyblue;
+	  color: ghostwhite;
     font-size: 10px;
 	}
   .a1:active {
-    color: lightgray;
+    color: deepskyblue;
 	}
 
-#menu{
-  background-color: black;
-  color: white;
-  text-align: right;
+.menu-box{
   padding: 5px;
+  background-color: black;
+  border-top: 10px outset skyblue;
+  border-left: 0px solid whitesmoke;
+  border-right: 0px dashed whitesmoke;
+  border-bottom: 1px dashed whitesmoke;
+}
 
+.menu-right{
+  text-align: right;
+}
+
+.menu-left{
+  text-align: left;
 }
