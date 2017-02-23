@@ -1,13 +1,17 @@
 body {
   padding: 0;
   margin: 0;
-  background: #f7f7f7;
-  /* Old browsers */
-  background: -moz-linear-gradient(10deg,skyblue 0%, deepskyblue 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(10deg, skyblue 0%, deepskyblue 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(75deg, skyblue 0%, deepskyblue 100%);
+  background: skyblue;
+  /* #f7f7f7; */
+
+  /* Old browsers 
+  background: -moz-linear-gradient(45deg,skyblue 0%, deepskyblue 100%);
+  /* FF3.6-15 
+  background: -webkit-linear-gradient(45deg, skyblue 0%, deepskyblue 100%);
+  /* Chrome10-25,Safari5.1-6 
+  background: linear-gradient(45deg, skyblue 0%, deepskyblue 100%); 
+  */
+
 }
 
 /*p1ixeled.ttf*/
@@ -125,18 +129,18 @@ p {
 
 
 .menu {
-  padding: 10px;
+  padding: 10px 0px 10px 0px;
   background-color: black;
-  border-top: 10px outset skyblue;
+  border-top: 10px solid skyblue;
   border-left: 0px solid whitesmoke;
   border-right: 0px dashed whitesmoke;
-  border-bottom: 0px dashed whitesmoke;
+  border-bottom: 10px double skyblue;
+  
 }
 
 .menu ul {
 	padding:0px;
 	margin:0px;
-	list-style:none;
 }
 
 .menu ul li { 
@@ -144,30 +148,32 @@ p {
 }
 
 .menu ul li a {
-	padding: 2px 10px;
+	padding: 5px;
 	display: inline;
  
-	/* visual do link */
+  /* visual do link */
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
-  font-weight: 800;
-  /*text-transform: uppercase;*/
+  font-weight: 900;
+  text-transform: uppercase;
   text-decoration: none;
-  letter-spacing: 5px;
-  border-left: 7px solid black;
+  letter-spacing: 1px;
+  border-left: 5px solid black;
 }
 
 .menu ul li a:active {
-    color: lightslategray;
+    color: silver;
 }
+
 .menu ul li a:visited {
-    color: lightslategray;
+    color: silver;
 }
 
 .menu ul li a:hover {
-  color: silver;;
+  color: dodgerblue;
+  background-color: whitesmoke;
   font-size: 20px;
-	border-left: 7px solid 
+	border-left: 5px solid dodgerblue;
 }
 
 
