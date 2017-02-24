@@ -73,13 +73,31 @@ h1 {
   top: 50%;
 }
 
+h2{
+  color: black;
+  font-family: _8bit_wonder;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.hello-block{
+  text-align: center;
+  /*text-transform: uppercase;*/
+  border-width: 0px 10px 0px 10px;
+  border-style: outset;
+  border-color: darkorange;
+  background-color: papayawhip;
+  /*float: right;*/
+  height: 200px;
+}
+
 
 /** P style **/
 p {
   color: #444444;
-  line-height: 32px;
+  line-height: 20px;
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 100;
 }
 
@@ -100,19 +118,12 @@ p {
   font-weight: normal;
     
   height: 200px;
-
-  text-align: center;
-  /*text-transform: uppercase;*/
-  border-width: 0px 10px 0px 10px;
-  border-style: outset;
-  border-color: darkorange;
-  background-color: papayawhip;
 }
 
 .p3{
   color: black;
   font-family: Fipps-Regular;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   text-align: center;
   /*text-transform: uppercase;*/
@@ -134,7 +145,7 @@ p {
   border-top: 10px solid skyblue;
   border-left: 0px solid whitesmoke;
   border-right: 0px dashed whitesmoke;
-  border-bottom: 10px double skyblue;
+  border-bottom: 10px solid skyblue;
   
 }
 
@@ -170,10 +181,10 @@ p {
 }
 
 .menu ul li a:hover {
-  color: dodgerblue;
-  background-color: whitesmoke;
+  color: papayawhip;
+  
   font-size: 20px;
-	border-left: 5px solid dodgerblue;
+	border-left: 5px solid papayawhip;
 }
 
 
