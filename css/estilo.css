@@ -2,6 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background: skyblue;
+  height: 2000px;
   /* #f7f7f7; */
 
   /* Old browsers 
@@ -68,9 +69,9 @@ h1 {
   font-size: 100px;
   line-height: 76px;
   margin: 20px;
-  position: relative;
+  margin-top: 70px;
+  top:50px;
   text-align: center;
-  top: 50%;
 }
 
 h2{
@@ -89,6 +90,8 @@ h2{
   background-color: papayawhip;
   /*float: right;*/
   height: 200px;
+  width:600px;
+  margin: 30px auto;
 }
 
 
@@ -107,7 +110,8 @@ p {
   font-family: PressStart2P;
   font-size: 16px;
   font-weight: normal;
-  text-align: center;
+  text-align: justify;
+  margin: 15px;
   /*text-transform: uppercase;*/
 }
 
@@ -146,6 +150,12 @@ p {
   border-left: 0px solid whitesmoke;
   border-right: 0px dashed whitesmoke;
   border-bottom: 10px solid skyblue;
+
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  
   
 }
 
@@ -181,10 +191,10 @@ p {
 }
 
 .menu ul li a:hover {
-  color: papayawhip;
+  color: #1be;
   
   font-size: 20px;
-	border-left: 5px solid papayawhip;
+	border-left: 5px solid #1be;
 }
 
 
