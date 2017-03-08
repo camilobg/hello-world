@@ -1,13 +1,18 @@
 body {
   padding: 0;
   margin: 0;
-  background: #f7f7f7;
-  /* Old browsers */
-  background: -moz-linear-gradient(10deg,skyblue 0%, deepskyblue 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(10deg, skyblue 0%, deepskyblue 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(75deg, skyblue 0%, deepskyblue 100%);
+  background: skyblue;
+  height: 2000px;
+  /* #f7f7f7; */
+
+  /* Old browsers 
+  background: -moz-linear-gradient(45deg,skyblue 0%, deepskyblue 100%);
+  /* FF3.6-15 
+  background: -webkit-linear-gradient(45deg, skyblue 0%, deepskyblue 100%);
+  /* Chrome10-25,Safari5.1-6 
+  background: linear-gradient(45deg, skyblue 0%, deepskyblue 100%); 
+  */
+
 }
 
 /*p1ixeled.ttf*/
@@ -64,31 +69,43 @@ h1 {
   font-size: 100px;
   line-height: 76px;
   margin: 20px;
-  position: relative;
+  margin-top: 70px;
   text-align: center;
-  top: 50%;
 }
 
-/** List style **/
-ul {
-  margin: 0 auto;
-  padding: 0;
-  width: 50%;
+h2{
+  color: white;
+  font-family: _8bit_wonder;
+  font-size: 20px;
+  font-weight: normal;
+  background-color: black;
+  position: relative;
+  top: 10px;
+ padding: 15px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
-li {
-  border-bottom: 5px solid #E4BB97;
-  list-style: none;
-  margin: 100px 0px;
-  padding-bottom: 60px;
+.destak-block{
+  text-align: center;
+  /*text-transform: uppercase;*/
+  border-width: 0px 10px 0px 10px;
+  border-style: solid;
+  border-color: darkorange;
+  background-color: papayawhip;
+  /*float: right;*/
+  height: 200px;
+  width:600px;
+  margin: 30px auto;
 }
+
 
 /** P style **/
 p {
   color: #444444;
-  line-height: 32px;
+  line-height: 20px;
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 100;
 }
 
@@ -98,7 +115,8 @@ p {
   font-family: PressStart2P;
   font-size: 16px;
   font-weight: normal;
-  text-align: center;
+  text-align: justify;
+  margin: 15px;
   /*text-transform: uppercase;*/
 }
 
@@ -107,14 +125,14 @@ p {
   font-family: _8bit_wonder;
   font-size: 18px;
   font-weight: normal;
-  text-align: center;
-  /*text-transform: uppercase;*/
+    
+  height: 200px;
 }
 
 .p3{
   color: black;
   font-family: Fipps-Regular;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: normal;
   text-align: center;
   /*text-transform: uppercase;*/
@@ -130,49 +148,65 @@ p {
 }
 
 
-a {
-  font-family: _8bit_wonder;
-  font-size: 12px;
-  font-weight: 900;
-  /*text-transform: uppercase;*/
-  text-decoration: none;
-  letter-spacing: 13px;
-}
-  a:visited {
-    color: deepskyblue;
-	}
-  a:hover {
-	  color: white;
-    font-size: 12px;
-	}
-  a:active {
-    color: deepskyblue;
-	}
-
-  
-.a1 {
-  font-family: p1ixeled;
-  font-size: 10px;
-  font-weight: 800;
-  /*text-transform: uppercase;*/
-  text-decoration: none;
-  letter-spacing: 5px;
-}
-  .a1:visited {
-    color: lightgray;
-	}
-  .a1:hover {
-	  color: skyblue;
-    font-size: 10px;
-	}
-  .a1:active {
-    color: lightgray;
-	}
-
-#menu{
+.menu {
+  padding: 10px 0px 10px 0px;
   background-color: black;
-  color: white;
-  text-align: right;
-  padding: 5px;
+  border-top: 10px solid skyblue;
+  border-left: 0px solid whitesmoke;
+  border-right: 0px dashed whitesmoke;
+  border-bottom: 10px solid skyblue;
 
+  position: fixed;
+  top: 0;
+
+  width: 100%;
+  
+  
 }
+
+.menu ul {
+	padding:0px;
+	margin:0px;
+}
+
+.menu ul li { 
+  display: inline; 
+}
+
+/* formatação padrão links */
+.menu ul li a {
+	padding: 5px;
+	display: inline;
+ 
+  /* visual do link */
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  border-left: 5px solid black;
+}
+
+/* links não visitados */
+.menu ul li a:link{
+    color: silver;
+}
+
+/* links visitados */
+.menu ul li a:visited {
+    color: silver;
+}
+
+/* ao passar o cursor em cima */
+.menu ul li a:hover {
+  color: papayawhip;
+  border-left: 5px solid darkorange;
+}
+
+/* quando clickado */
+.menu ul li a:active {
+  color: #1be;
+	border-left: 5px solid #1be;
+}
+
